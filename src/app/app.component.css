@@ -1,0 +1,49 @@
+.personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.personaje {
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.personaje h3 {
+    font-family: 'Lemonada', cursive;
+}
+
+.personaje img {
+    width: 100%;
+}
+
+.vivo {
+    border: 3px solid lightgreen;
+    transition: .5s;
+}
+
+.vivo:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+.muerto {
+    border: 3px solid tomato;
+    transition: .5s;
+}
+
+.muerto:hover {
+    background-color: red;
+    transform: scale(0.9);
+}
+
+.info {
+    text-align: center;
+}

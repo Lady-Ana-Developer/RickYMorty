@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RickYMorty"
+    }
+  },
+  "defaultProject": "RickYMorty",
+  "cli": {
+    "analytics": false
+  }
 }
